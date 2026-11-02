@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "matrix-ex0"
+version = "0.1.0"
+description = "Exercise 0: sealing the laboratory and stocking the reagents"
+authors = ["mtyhach"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+pandas = ">=2.1.0"
+numpy = ">=1.25.0"
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"
